@@ -1,0 +1,214 @@
+:root{
+    --oswald:"Oswald", sans-serif;
+    --montserrat:"Montserrat", sans-serif;
+    --oswald-regular: 500;
+    --oswald-bold: 700;
+    --montserrat-regular:300;
+    --montserrat-medium:500;
+    --montserrat-bold:600;
+    --rose:#F3EEF6;
+    --blue:#3F477A;
+    --blue-dark:#2F3660;
+    --white:#fff;
+    --grey:#4F4B51;
+}
+html, body{
+    font-size:16px;
+    font-family:var(--montserrat);
+    background: var(--rose);
+}
+
+h1{
+    font-family: var(--oswald);
+    font-weight: var(--oswald-bold);
+    font-size:6rem;
+}
+h2{
+    font-family: var(--oswald);
+    font-weight: var(--oswald-regular);
+    font-size:2.5rem;
+}
+.h2-big{
+    font-size:4rem;
+}
+h4{
+    font-weight: var(--montserrat-regular);
+    font-size:1.2rem;
+}
+.title-shadow{
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
+.c-white{
+    color:var(--white)!important;
+}
+.c-grey{
+    color:var(--grey)!important;
+}
+.c-blue{
+    color:var(--blue)!important;
+}
+.bg-blue{
+    background: var(--blue)!important;
+}
+.bg-grey{
+    background: var(--grey)!important;
+}
+.full-section-padding{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.navbar{
+    height:80px;
+    padding-left:100px;
+    padding-right: 100px;
+    background: transparent!important;
+}
+.nav-link{
+    font-size:.8rem;
+    font-weight: var(--montserrat-bold);
+    letter-spacing: 2px;
+}
+.highlight-menu{
+    background-color:var(--blue);
+    border-radius: 100px;
+    color:var(--white);
+    padding-left:10px;
+    padding-right:10px;
+}
+.navbar-brand img{
+    max-width:180px;
+}
+
+.intro-container{
+    height:500px;
+    border-radius: 50px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-top:2%;
+  position:relative;
+  margin-bottom:10%;
+
+}
+.intro-container h4{
+    max-width:800px;
+    margin-bottom:10%;
+}
+.intro-container button{
+    position:absolute;
+    left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+    width:150px;
+    height:50px;
+    bottom:-27px;
+}
+
+.shadow-1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn{
+    font-size:.8rem;
+    font-weight: var(--montserrat-bold);
+    letter-spacing: 2px;
+}
+.btn-blue{
+    background-color:var(--blue);
+    color:var(--rose);
+    border:none;
+    padding: 10px 30px;
+    border-radius: 100px;
+
+}
+.btn-blue a{
+    text-decoration: none;
+    color:var(--white);
+}
+.btn-blue:hover{
+    background-color: var(--blue-dark);
+}
+
+
+
+.btn-white{
+    background-color:var(--rose);
+    color:var(--blue);
+    border:none;
+    padding: 10px 30px;
+    border-radius: 100px;
+
+}
+
+.btn-white:hover{
+    background-color: var(--blue-dark);
+}
+
+
+.somos-section .image-box{
+    overflow: hidden;
+    width:90%;
+    height:250px;
+    border-radius: 30px;
+}
+.displace-image{
+    margin-top:15%;
+}
+.somos-section .image-box img{
+    width:300px;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .swiper-slide .card{
+    border:none!important;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+.swiper-slide .card-title{
+    font-family: var(--oswald);
+}
+.swiper-slide .card-text{
+    font-weight: var(--montserrat-regular);
+}
+  .section-destacados{
+    margin-top:10%;
+    margin-bottom:10%;
+    
+  }
+
+  form{
+    width:500px;
+  }
+  .section-contact{
+    padding-top:10%!important;
+    padding-bottom:10%!important;
+  }
+
+  footer i {
+    color:var(--rose);
+  }
+  footer img{
+    max-width:150px;
+  }
+  .custom-tooltip{
+    --bs-tooltip-bg: var(--rose);
+    --bs-tooltip-color: var(--blue);
+  }
+  .custom-tooltip-blue{
+    --bs-tooltip-bg: var(--blue);
+    --bs-tooltip-color: var(--rose);
+  }
