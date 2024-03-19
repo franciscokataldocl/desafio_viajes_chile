@@ -32,3 +32,15 @@ let swiper = new Swiper(".mySwiper", {
   //tooltip
   const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+
+
+
+const scrollFunction = () => {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    document.getElementById("navbar").style.backgroundColor = "white"; // Cambiar a rojo cuando haces scroll más de 200px
+  } else {
+    document.getElementById("navbar").style.backgroundColor = "#F3EEF6"; // Mantener azul si estás por debajo de 200px de scroll
+  }
+}
+window.onscroll = () => scrollFunction();

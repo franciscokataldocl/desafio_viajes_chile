@@ -18,7 +18,7 @@
 
 <body>
   <!--navbar-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="./assets/img/viajes_chile_logo_negative.svg" alt="">
@@ -27,19 +27,19 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse menu-background-items" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+            <a class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">QUIENES SOMOS</a>
+            <a class="nav-link" href="#somos">QUIENES SOMOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">DESTACADOS</a>
+            <a class="nav-link" href="#destacados">DESTACADOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link highlight-menu" href="#">CONTACTO</a>
+            <a class="nav-link highlight-menu" href="#contacto">CONTACTO</a>
           </li>
         </ul>
       </div>
@@ -47,7 +47,7 @@
   </nav>
   <!--end navbar-->
   <!--intro section-->
-  <section class="container intro-container d-flex justify-content-center align-items-end"
+  <section id="inicio" class="container intro-container d-flex justify-content-center align-items-end"
     style="background-image:url('./assets/img/hero.jpg')">
     <div class="intro-content text-center">
       <h1 class="c-white title-shadow">VIAJES CHILE</h1>
@@ -61,7 +61,7 @@
   <!--end intro section-->
 
   <!--quienes somos section-->
-  <section class="container somos-section">
+  <section id="somos" class="container somos-section">
     <div class="row">
       <div class="col">
         <div class="row">
@@ -95,7 +95,7 @@
   <!--end quienes somos section-->
 
   <!--section destacados-->
-  <section class="container section-destacados">
+  <section id="destacados" class="container section-destacados">
     <div class="row p-0 m-0">
       <div class="col-sm-12 col-lg-4 d-flex justify-content-start align-items-center">
         <h2 class="c-blue h2-big text-center text-sm-start">Destacados</h2>
@@ -156,6 +156,7 @@
 
   <!--section contacto-->
   <section
+  id="contacto"
     class="section-contact container-fluid full-section-padding bg-blue py-5 d-flex justify-content-center align-items-center">
     <div class="row m-0 ">
       <div class="col-sm-6 d-flex justify-content-center align-items-center">
